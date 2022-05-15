@@ -1,5 +1,5 @@
 {
-  "name": "Quantum-Bot",
+  "name": "Diluc-Bot",
   "version": "1.0.0",
   "description": "Bot para Whatsapp en español y un poco multilingüe :v",
   "main": "Quantum.js",
@@ -17,7 +17,7 @@
     "bot",
     "whatsapp"
   ],
-  "author": "Matt_Mdz",
+  "author": "𝓡𝓪𝓶𝓸𝓼🕶",
   "license": "GNU",
   "dependencies": {
     "@adiwajshing/baileys": "^4.1.0",
