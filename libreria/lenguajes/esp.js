@@ -46,7 +46,7 @@ ${nwn}
 ║╭——————————
 ║├ ${prefix}miperfil
 ║├ ${prefix}informacion
-║├ ${prefix}apoyo
+║├ ${prefix}creditos
 ║├ ${prefix}baneados
 ║├ ${prefix}miwasa
 ║├ ${prefix}milimite
