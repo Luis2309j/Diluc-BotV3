@@ -598,7 +598,7 @@ exports.BotInfo = () => {
   return `[ INFO-BOT ]`
 }
 exports.GraciAs = () => {
-  return `[ APOYO ]`
+  return `[ CREDITOS ]`
 }
 exports.MasCmds = () => {
   return `[ MAS COMANDOS ☰ ]`
