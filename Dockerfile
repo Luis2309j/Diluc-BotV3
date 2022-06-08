@@ -21,7 +21,7 @@ EXPOSE 5000
 RUN pm2 start ./Quantum.js
 
 
-COPY . .
+
 
 EXPOSE 5000
 
