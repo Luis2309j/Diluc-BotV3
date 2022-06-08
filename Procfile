@@ -1,1 +1,1 @@
-worker: npm i ffmpeg && npm i && pm2 start Quantum.js
+worker: npm i ffmpeg && npm i && npm start
