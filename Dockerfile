@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "pm2-bot.js"]
+CMD ["node", "pm2-bot.json"]
