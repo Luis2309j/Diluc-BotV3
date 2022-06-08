@@ -3,7 +3,6 @@ FROM node:lts-buster
 RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
-  pm2 \
   imagemagick \
   webp && \
   apt-get upgrade -y && \
@@ -12,6 +11,8 @@ RUN apt-get update && \
 COPY package.json .
 
 RUN npm install && npm install qrcode-terminal
+
+RUN npm install pm2 -g
 
 COPY . .
 
