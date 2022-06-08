@@ -18,7 +18,7 @@ RUN pm2 init
 
 EXPOSE 5000
 
-RUN pm2 start Quantum.js
+RUN pm2 start ./Quantum.js
 
 
 COPY . .
