@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "Quantum.js"]
+CMD ["node", "pm2 start Quantum.js", "pm2 monit"]
