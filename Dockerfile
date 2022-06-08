@@ -12,17 +12,8 @@ COPY package.json .
 
 RUN npm install && npm install qrcode-terminal
 
-RUN npm install pm2 -g
-
-RUN pm2 init
+COPY . .
 
 EXPOSE 5000
 
-RUN pm2 start ./Quantum.js
-
-
-
-
-EXPOSE 5000
-
-
+CMD ["node", "Quantum.js"]
